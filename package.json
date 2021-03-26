@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-chatbot",
+  "version": "2.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+  "check": "npx eslint *.js && npx prettier --check *.js && $(npm bin)/tsc",
+  "test": "mocha",
+  "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  "express": "^4.17.1",
+  "mongodb": "^3.6.5",
+  "node-fetch": "^3.0.0-beta.9"
+  },
+  "devDependencies": {
+  "@types/express": "^4.17.11",
+  "@types/mocha": "^8.2.2",
+  "@types/mongodb": "^3.6.10",
+  "eslint": "^7.22.0",
+  "eslint-config-prettier": "^8.1.0",
+  "mocha": "^8.3.2",
+  "prettier": "^2.2.1",
+  "typescript": "^4.2.3"
+  }
+ }
